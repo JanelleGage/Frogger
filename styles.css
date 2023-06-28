@@ -17,16 +17,16 @@ body button {
 
 .grid {
     border: 1px solid black;
-    width: 720px;
-    height: 360px;
+    width: 1080px;
+    height: 540px;
     display: flex;
     flex-wrap: wrap;
     gap: 0px;
 }
 
 .grid div {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
 }
 
 .info {
@@ -60,6 +60,10 @@ body button {
     background-color: lightgray;
 }
 
+.grass {
+    background-color: rgb(14, 74, 14);
+}
+
 .frog {
-    background-color: green;
+    background-image: url("frog.png");
 }

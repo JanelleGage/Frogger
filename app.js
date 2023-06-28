@@ -1,7 +1,9 @@
 /**
  * TODO:
- * Add pictures for cars and logs and frog
- * Add an extra layer of logs and cars (make grid smaller)
+ * Add clipart of flowers to grass areas
+ * change the color of the roads
+ * make the logs round (use plain brown images with border radiuses)
+ * use images for the cars
  */
 
 
@@ -14,10 +16,10 @@ const logsRight = document.querySelectorAll(".log-right")
 const carsLeft = document.querySelectorAll(".car-left")
 const carsRight = document.querySelectorAll(".car-right")
 
-const width = 9
+const width = 36
 
 
-let currentIndex = 100
+let currentIndex = 630
 let timerId
 let currentTime = 20
 let outcomeTimerId
@@ -187,7 +189,7 @@ startPauseButton.addEventListener('click', () => {
         timerId = null
         document.removeEventListener('keyup', moveFrog)
     } else {
-        timerId = setInterval(autoMoveElements, 1000) 
+        timerId = setInterval(autoMoveElements, 800) 
         outcomeTimerId = setInterval(checkOutcomes, 50)
         document.addEventListener('keyup', moveFrog)
     }
