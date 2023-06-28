@@ -29,6 +29,10 @@ body button {
     width: 30px;
 }
 
+.sidewalk {
+    border: 1px solid black;
+}
+
 .info {
     display: flex;
     flex-direction: row;
@@ -36,16 +40,22 @@ body button {
     gap: 200px;
 }
 
-.ending-block {
-    background-color: red;
+.l1 {
+    background: url("./images/log-base.png"), lightblue;
+    background-size: cover contain;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
-.starting-block {
-    background-color: yellow
+.l2 {
+    background: url("./images/log-base.png"), lightblue;
 }
 
-.l1, .l2, .l3 {
-    background-color: brown;
+.l3 {
+    background: url("./images/log-base.png"), lightblue;
+    background-size: cover contain;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .l4, .l5 {
@@ -53,17 +63,21 @@ body button {
 }
 
 .c1 {
-    background-color: black;
+    background-color: rgba(213, 13, 13, 0.797);
 }
 
 .c2, .c3 {
-    background-color: lightgray;
+    background-color: rgb(175, 175, 175);
 }
 
 .grass {
     background-color: rgb(14, 74, 14);
 }
 
+.ending-block {
+    background-image: url("./images/end.png");
+}
+
 .frog {
-    background-image: url("frog.png");
+    background-image: url("./images/frog.png");
 }

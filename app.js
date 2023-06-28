@@ -1,8 +1,6 @@
 /**
  * TODO:
- * Add clipart of flowers to grass areas
  * change the color of the roads
- * make the logs round (use plain brown images with border radiuses)
  * use images for the cars
  */
 
