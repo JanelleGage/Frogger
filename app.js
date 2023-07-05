@@ -1,9 +1,3 @@
-/**
- * TODO:
- * change the color of the roads
- * use images for the cars
- */
-
 
 const timeLeft = document.querySelector("#time-left")
 const result = document.querySelector("#result")
@@ -19,7 +13,7 @@ const width = 36
 
 let currentIndex = 630
 let timerId
-let currentTime = 20
+let currentTime = 45
 let outcomeTimerId
 
 
